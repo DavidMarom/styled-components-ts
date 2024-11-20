@@ -1,10 +1,16 @@
+'use client';
+
 import { Card } from '@/app/components';
 
 export default function Home() {
-
   return (
-    <div >
-      <Card $primary={true}  $padding='40px'>Primary Card</Card>
+    <div>
+      <Card
+        $primary={false}
+        $padding='30px'
+      >
+        Primary Card
+      </Card>
     </div>
   );
 }
